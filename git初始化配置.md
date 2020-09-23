@@ -10,6 +10,7 @@ git init
 
 ###添加到缓存区
 git add <file>...
+git add -A
 
 ###从缓存区中删除
 git rm --cache <file>...
@@ -24,6 +25,8 @@ git log
 带HEAD   
 git reflog 
 
+###版本前进后退
+git reset --hard <index>
 
 
 
